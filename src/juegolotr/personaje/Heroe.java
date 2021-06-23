@@ -1,12 +1,11 @@
 package juegolotr.personaje;
-
 import juegolotr.game.Dado;
 
 public class Heroe extends Personae{
     private static int contadorH;
 
     //constructor
-    public Heroe(String nombrePersonaje, double escudo, double vida, boolean furia) {
+    public Heroe(String nombrePersonaje, double escudo, double vida) {
         super(nombrePersonaje, escudo, vida, true);
         Heroe.contadorH++;
     }
